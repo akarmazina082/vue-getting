@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <main-menu/>
+      <nav-menu/>
     </header>
 
     <div class="block">
@@ -17,9 +17,10 @@
 </template>
 
 <script>
-import MainMenu from '../components/main-menu';
+import NavMenu from '../components/index/nav-menu';
+
 export default {
   name: 'DefaultLayout',
-  components: {MainMenu},
+  components: {NavMenu},
 }
 </script>
